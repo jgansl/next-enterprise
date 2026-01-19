@@ -8,8 +8,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="dark">
+        <AppNavigationMenu />
         <SmoothScroll>
-          <AppNavigationMenu />
           <main>{children}</main>
           <Footer />
         </SmoothScroll>
